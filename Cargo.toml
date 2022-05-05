@@ -1,0 +1,14 @@
+[package]
+name = "ffxiv-wiki"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+markdown-gen = { git = "https://github.com/hbina/markdown-gen-rs", rev = "c1d981c37c670a50be01ba4ff67131978c48c6d2" }
+pathdiff = "0.2.1"
+quoted-string = "0.6.1"
+rayon = "1.5.2"
+scraper = "0.13.0"
+urlencoding = "2.1.0"
